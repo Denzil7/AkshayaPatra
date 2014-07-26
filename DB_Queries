@@ -1,0 +1,4 @@
+ALTER TABLE  `recipe`.`Menu` ADD PRIMARY KEY (  `kitCode` ,  `menCode` ,  `sNo` );
+
+create table Kitchen (kitCode varchar(3), kitName varchar(100));
+ALTER TABLE  `Kitchen` ADD PRIMARY KEY (  `kitCode` )
